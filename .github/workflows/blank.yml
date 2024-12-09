@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          java --version
+          echo "this was a java version on runner"
+          ant --version
+          git --version
+          echo "theser were the ant and git versions"
